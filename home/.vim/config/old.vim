@@ -2,8 +2,6 @@
 
 set nocompatible " be iMproved
 
-set t_Co=256
-
 syntax on
 let mapleader = ','
 
@@ -23,14 +21,6 @@ set listchars=tab:>-,trail:_
 set autoindent
 set nostartofline
 set ruler
-
-set laststatus=2
-" set statusline=%<%f\ %m\ %r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=\ (%v,%l)/%L%8P\ 
-
-function! StlFnc()
-  return '[' . (&l:ft != '' ? &l:ft . ',' : '') . &l:ff[0] . ',' .  (&l:fenc != '' ? &l:fenc : &enc) . ']'
-endfunction
-" set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%y%{exists('*SkkGetModeStr')?SkkGetModeStr():''}%=%l(%L),%c%V%8P
 
 set clipboard=unnamed,autoselect
 

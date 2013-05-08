@@ -6,6 +6,10 @@ endif
 
 set linespace=1
 set ambiwidth=double
+
+" Status line
+
+set laststatus=2
 let g:Powerline_symbols = 'fancy'
 
 " Look cool!
