@@ -10,6 +10,12 @@ NeoBundle      'Shougo/vimproc',
 
 NeoBundle      'Shougo/unite.vim'
 NeoBundle      'ujihisa/unite-colorscheme'
+
+NeoBundle      'Lokaltog/powerline',
+\ {
+\   'rtp': 'powerline/bindings/vim'
+\ }
+
 NeoBundle      'tpope/vim-surround'
 NeoBundle      'osyo-manga/vim-anzu'
 NeoBundle      'tpope/vim-markdown'

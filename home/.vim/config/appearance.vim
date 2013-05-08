@@ -1,11 +1,12 @@
 " Font
 
 if has('gui')
-  set guifont=Ricty\ Regular:h15
+  set guifont=Ricty\ Regular\ for\ Powerline:h16
 endif
 
 set linespace=1
 set ambiwidth=double
+let g:Powerline_symbols = 'fancy'
 
 " Look cool!
 
