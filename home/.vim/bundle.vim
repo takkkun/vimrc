@@ -16,6 +16,7 @@ NeoBundle      'Lokaltog/powerline',
 \   'rtp': 'powerline/bindings/vim'
 \ }
 
+NeoBundle      'kien/ctrlp.vim'
 NeoBundle      'tpope/vim-surround'
 NeoBundle      'osyo-manga/vim-anzu'
 NeoBundle      'tpope/vim-markdown'
