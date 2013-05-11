@@ -21,14 +21,13 @@ if has('gui')
 
   function! s:transparency_change_to(diff)
     let &transparency = a:diff + &transparency
-    let g:transparency = &transparency
   endfunction
 
-  nnoremap <Up>   :<C-u>call <SID>transparency_change_to( 5)<CR>
-  nnoremap <Down> :<C-u>call <SID>transparency_change_to(-5)<CR>
+  nnoremap <C-Up>   :<C-u>call <SID>transparency_change_to( 5)<CR>
+  nnoremap <C-Down> :<C-u>call <SID>transparency_change_to(-5)<CR>
 else
-  nnoremap <Up>   <Nop>
-  nnoremap <Down> <Nop>
+  nnoremap <C-Up>   <Nop>
+  nnoremap <C-Down> <Nop>
 endif
 
 " Look smart!
