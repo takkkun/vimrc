@@ -1,13 +1,9 @@
 " 234567890123456789012345678901234567890123456789012345678901234567890123456789
 
 syntax on
-let mapleader = ','
+let mapleader = ' '
 
 inoremap <C-d> <Del>
-
-if has('mac')
-  set noimdisable " use AquaSKK
-endif
 
 set hidden
 set wildmenu
@@ -19,6 +15,8 @@ set listchars=tab:>-,trail:_
 set autoindent
 set nostartofline
 set ruler
+set number
+set numberwidth=4
 
 set clipboard=unnamed,autoselect
 
