@@ -11,11 +11,7 @@ NeoBundle      'Shougo/vimproc',
 NeoBundle      'Shougo/unite.vim'
 NeoBundle      'ujihisa/unite-colorscheme'
 
-NeoBundle      'Lokaltog/powerline',
-\ {
-\   'rtp': 'powerline/bindings/vim'
-\ }
-
+NeoBundle      'itchyny/lightline.vim'
 NeoBundle      'vim-scripts/FuzzyFinder', {'depends': 'vim-scripts/L9'}
 NeoBundle      'Shougo/vimfiler'
 NeoBundle      'tpope/vim-surround'
