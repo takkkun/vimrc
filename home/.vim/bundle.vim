@@ -15,6 +15,7 @@ NeoBundle      'itchyny/lightline.vim'
 NeoBundle      'Shougo/vimfiler'
 NeoBundle      'tpope/vim-surround'
 NeoBundle      'osyo-manga/vim-anzu'
+NeoBundle      'vim-scripts/sudo.vim'
 NeoBundle      'tpope/vim-markdown'
 
 " Colorschemes
