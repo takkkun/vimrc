@@ -4,6 +4,11 @@ set guifont=Ricty\ Regular\ for\ Powerline:h16
 set linespace=2
 set ambiwidth=double
 
+" Window
+
+set columns=169
+set lines=46
+
 " Command line
 
 set cmdheight=1
