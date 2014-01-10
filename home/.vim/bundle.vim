@@ -21,3 +21,7 @@ NeoBundle      'tpope/vim-markdown'
 " Colorschemes
 
 NeoBundle      'jpo/vim-railscasts-theme'
+
+" Languages
+
+NeoBundle      'derekwyatt/vim-scala'
