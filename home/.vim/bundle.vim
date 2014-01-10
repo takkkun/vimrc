@@ -25,3 +25,4 @@ NeoBundle      'jpo/vim-railscasts-theme'
 " Languages
 
 NeoBundle      'derekwyatt/vim-scala'
+NeoBundle      'kchmck/vim-coffee-script'
