@@ -1,4 +1,5 @@
 let g:unite_enable_start_insert = 0
+let g:unite_force_overwrite_statusline = 0
 
 " Data directory
 

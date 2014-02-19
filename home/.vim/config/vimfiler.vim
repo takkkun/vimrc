@@ -1,4 +1,5 @@
 let g:vimfiler_safe_mode_by_default = 0
+let g:vimfiler_force_overwrite_statusline = 0
 
 " Data directory
 
