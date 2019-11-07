@@ -14,6 +14,11 @@ exe 'set backupdir=' . s:tmp_dir
 set swapfile
 exe 'set directory=' . s:tmp_dir
 
+" .un~
+
+set undofile
+exe 'set undodir=' . s:tmp_dir
+
 " .viminfo
 
 exe 'set viminfo+=n' . s:tmp_dir . '/viminfo'
