@@ -1,6 +1,6 @@
 " Font
 
-set guifont=Ricty\ Regular\ for\ Powerline:h16
+set guifont=Cica:h16
 set linespace=2
 set ambiwidth=double
 
