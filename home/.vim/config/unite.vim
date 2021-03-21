@@ -3,9 +3,9 @@ let g:unite_force_overwrite_statusline = 0
 
 " Data directory
 
-if has('win32')
+if has('win32') || has('win64')
   let s:ramdisk = 'R:'
-elseif has('macunix')
+elseif has('mac')
   let s:ramdisk = '/Volumes/RamDisk'
 else
   let s:ramdisk = '/mnt/ramdisk'
