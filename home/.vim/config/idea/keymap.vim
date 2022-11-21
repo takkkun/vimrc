@@ -1,3 +1,16 @@
+" Font size
+
+nnoremap <M-S-;> :<C-u>action EditorIncreaseFontSize<CR>
+nnoremap <M--> :<C-u>action EditorDecreaseFontSize<CR>
+nnoremap <M-0> :<C-u>action EditorResetFontSize<CR>
+
+" Tab
+
+nmap <Space>t [tab]
+
+nnoremap [tab]a :<C-u>action CloseAllEditors<CR>
+nnoremap [tab]o :<C-u>action CloseAllEditorsButActive<CR>
+
 " Navigate
 
 nmap <Space>n [navigate]
